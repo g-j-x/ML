@@ -22,7 +22,7 @@ topK = 10
 num_factors = 16
 num_negatives = 4
 batch_size = 32
-lr = 0.001
+lr = 0.0001
 
 # 数据在processed Data里面
 train = np.load('ProcessedData/train.npy', allow_pickle=True).tolist()
