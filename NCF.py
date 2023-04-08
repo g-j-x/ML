@@ -19,9 +19,9 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # 一些超参数设置
 topK = 10
-num_factors = 8
+num_factors = 16
 num_negatives = 4
-batch_size = 64
+batch_size = 32
 lr = 0.001
 
 # 数据在processed Data里面
